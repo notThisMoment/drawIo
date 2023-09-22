@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-22T09:36:43.758Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="8P4bF50UpiL34GZl5IWl" version="21.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-22T12:40:19.200Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="-u6Nzt2NI0pokZ5eXLT6" version="21.8.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="989" dy="1681" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -10,7 +10,7 @@
         <mxCell id="jJfo0J_C-5qvuoIFm2Do-4" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-3" target="jJfo0J_C-5qvuoIFm2Do-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-3" value="框选板卡，缓存板卡&lt;br&gt;元件信息,按时间进行缓存" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-3" value="框选板卡，缓存板卡&lt;br&gt;元件信息,按时间进行缓存" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="135" y="60" width="170" height="50" as="geometry" />
         </mxCell>
         <mxCell id="jJfo0J_C-5qvuoIFm2Do-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="jJfo0J_C-5qvuoIFm2Do-0" target="WIyWlLk6GJQsqaUBKTNV-3">
@@ -19,13 +19,13 @@
         <mxCell id="jJfo0J_C-5qvuoIFm2Do-0" value="开始" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="160" y="-20" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="jJfo0J_C-5qvuoIFm2Do-2" value="框选元件，缓存元件的字段信息(area,vlome, height, x_offset, y_offset)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="jJfo0J_C-5qvuoIFm2Do-2" value="框选元件，缓存元件的字段信息(area,vlome, height, x_offset, y_offset)，清理越界数据" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="135" y="160" width="170" height="80" as="geometry" />
         </mxCell>
         <mxCell id="jJfo0J_C-5qvuoIFm2Do-10" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="jJfo0J_C-5qvuoIFm2Do-7" target="jJfo0J_C-5qvuoIFm2Do-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jJfo0J_C-5qvuoIFm2Do-7" value="输入func数据修改模型，输出修改后的数值矩阵" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="jJfo0J_C-5qvuoIFm2Do-7" value="输入func数据修改模型，输出修改后的数值矩阵" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="160" y="270" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jJfo0J_C-5qvuoIFm2Do-8" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.461;entryY=-0.022;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="jJfo0J_C-5qvuoIFm2Do-2" target="jJfo0J_C-5qvuoIFm2Do-7">
@@ -34,7 +34,7 @@
         <mxCell id="jJfo0J_C-5qvuoIFm2Do-12" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="jJfo0J_C-5qvuoIFm2Do-9" target="jJfo0J_C-5qvuoIFm2Do-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jJfo0J_C-5qvuoIFm2Do-9" value="将输出的数据矩阵放入常规计算的流程" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="jJfo0J_C-5qvuoIFm2Do-9" value="将输出的数据矩阵放入常规计算的流程" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="160" y="360" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jJfo0J_C-5qvuoIFm2Do-11" value="结束" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
