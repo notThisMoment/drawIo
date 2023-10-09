@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-09T11:31:58.377Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="ANocjM4-5YzbMAMLQCro" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-09T11:34:10.022Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="nq-OJZLkJ0erpKahA8QC" version="22.0.4" type="github">
   <diagram name="第 1 页" id="pOSDK7yILVoC8AeX07EB">
     <mxGraphModel dx="1988" dy="642" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -22,7 +22,7 @@
         <mxCell id="BCu3Q3xe9jq5rhCb7yrI-5" value="右键绘制框" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="320" y="310" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="BCu3Q3xe9jq5rhCb7yrI-6" value="1. 将拼版和元件绑定的操作如果需要在osg那一层做，那么basicimagecontrol就需要记录当前绘制的是元件框还是拼版框，造成业务逻辑的下沉&lt;br&gt;2. 拼版的复制剪切删除移动，对应的多个元件的同时复制剪切删除移动粘贴是否已经支持" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="BCu3Q3xe9jq5rhCb7yrI-6" value="1. 将拼版和元件绑定的操作如果需要在osg那一层做，那么basicimagecontrol就需要记录当前绘制的是元件框还是拼版框，造成业务逻辑的下沉&lt;br&gt;2. 拼版的复制剪切删除移动，对应的多个元件的同时复制剪切删除移动粘贴是否已经支持&lt;br&gt;3. 拼版的放大缩小会影响元件的放大缩小，这个规则目前产品定义不清晰，且需要osg开发" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="-50" y="120" width="260" height="280" as="geometry" />
         </mxCell>
         <mxCell id="BCu3Q3xe9jq5rhCb7yrI-7" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
@@ -38,7 +38,7 @@
           <mxGeometry x="310" y="420" width="140" height="90" as="geometry" />
         </mxCell>
         <mxCell id="BCu3Q3xe9jq5rhCb7yrI-12" value="右键绘制框" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="40" y="550" width="120" height="60" as="geometry" />
+          <mxGeometry x="-250" y="500" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BCu3Q3xe9jq5rhCb7yrI-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BCu3Q3xe9jq5rhCb7yrI-13" target="BCu3Q3xe9jq5rhCb7yrI-14">
           <mxGeometry relative="1" as="geometry" />
@@ -55,11 +55,14 @@
         <mxCell id="BCu3Q3xe9jq5rhCb7yrI-15" value="结束" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="320" y="760" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="BCu3Q3xe9jq5rhCb7yrI-20" value="开始" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="500" y="120" width="120" height="60" as="geometry" />
+        <mxCell id="BCu3Q3xe9jq5rhCb7yrI-22" value="这里有两种方式&lt;br&gt;1. 缓存实际的框的数据&lt;br&gt;2. 缓存id" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="500" width="260" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="BCu3Q3xe9jq5rhCb7yrI-21" value="右键绘制框" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="500" y="220" width="120" height="60" as="geometry" />
+        <mxCell id="BCu3Q3xe9jq5rhCb7yrI-23" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="630" as="sourcePoint" />
+            <mxPoint x="300" y="585" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
