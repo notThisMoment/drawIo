@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-10T02:12:07.459Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="nxXB5Cp4BYCBASovxpN5" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-10T06:47:01.271Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="qfjT4beT-MHEFjIrNSTk" version="22.0.4" type="github">
   <diagram name="第 1 页" id="pOSDK7yILVoC8AeX07EB">
-    <mxGraphModel dx="2220" dy="743" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2220" dy="770" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -110,6 +110,31 @@
         </mxCell>
         <mxCell id="BCu3Q3xe9jq5rhCb7yrI-36" value="shift+&lt;br&gt;qe键旋转" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="-360" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BCu3Q3xe9jq5rhCb7yrI-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="BCu3Q3xe9jq5rhCb7yrI-39" target="BCu3Q3xe9jq5rhCb7yrI-40">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-430" y="818" />
+              <mxPoint x="-554" y="818" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BCu3Q3xe9jq5rhCb7yrI-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BCu3Q3xe9jq5rhCb7yrI-39" target="BCu3Q3xe9jq5rhCb7yrI-41">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-430" y="818" />
+              <mxPoint x="-296" y="818" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BCu3Q3xe9jq5rhCb7yrI-39" value="移动" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="-490" y="747" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BCu3Q3xe9jq5rhCb7yrI-40" value="鼠标拖动移动" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="-614" y="855" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BCu3Q3xe9jq5rhCb7yrI-41" value="箭头按钮移动" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="-356" y="855" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
