@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-11T03:18:56.891Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="BfvXNCVY52e8D9T5aVxa" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-11T03:26:49.169Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="-bNeq_QD2AFMbjcRRK79" version="22.0.4" type="github">
   <diagram name="第 1 页" id="pOSDK7yILVoC8AeX07EB">
     <mxGraphModel dx="2568" dy="963" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -105,10 +105,10 @@
         <mxCell id="BCu3Q3xe9jq5rhCb7yrI-34" value="旋转" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="-490" y="530" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="BCu3Q3xe9jq5rhCb7yrI-35" value="qe键旋转" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+        <mxCell id="BCu3Q3xe9jq5rhCb7yrI-35" value="qe键旋转" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="-610" y="640" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="BCu3Q3xe9jq5rhCb7yrI-36" value="shift+&lt;br&gt;qe键旋转" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+        <mxCell id="BCu3Q3xe9jq5rhCb7yrI-36" value="shift+&lt;br&gt;qe键旋转" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="-360" y="640" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BCu3Q3xe9jq5rhCb7yrI-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="BCu3Q3xe9jq5rhCb7yrI-39" target="BCu3Q3xe9jq5rhCb7yrI-40">
@@ -148,8 +148,8 @@
         <mxCell id="BCu3Q3xe9jq5rhCb7yrI-47" value="放缩" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="-773" y="782" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="BCu3Q3xe9jq5rhCb7yrI-49" value="所有可能操作" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;fontColor=#FF3333;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="-788" y="212" width="180" height="60" as="geometry" />
+        <mxCell id="BCu3Q3xe9jq5rhCb7yrI-49" value="所有可能操作/场景" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;fontColor=#FF3333;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-788" y="212" width="211" height="61" as="geometry" />
         </mxCell>
         <mxCell id="BCu3Q3xe9jq5rhCb7yrI-50" value="删除" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="-773" y="683" width="120" height="60" as="geometry" />
