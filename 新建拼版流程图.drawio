@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-11T08:31:49.946Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="kwI6qWv2CMVdj0z5tnEf" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-12T01:04:31.731Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="MjwwsIg9F_1H8LlP2XQG" version="22.0.4" type="github">
   <diagram name="第 1 页" id="pOSDK7yILVoC8AeX07EB">
-    <mxGraphModel dx="2568" dy="963" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2038" dy="670" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -40,20 +40,11 @@
         <mxCell id="BCu3Q3xe9jq5rhCb7yrI-11" value="osglib输入框的位置大小，寻找范围内的元件ID并返回" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="310" y="420" width="140" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="BCu3Q3xe9jq5rhCb7yrI-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BCu3Q3xe9jq5rhCb7yrI-13" target="BCu3Q3xe9jq5rhCb7yrI-14">
+        <mxCell id="BCu3Q3xe9jq5rhCb7yrI-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BCu3Q3xe9jq5rhCb7yrI-13" target="BCu3Q3xe9jq5rhCb7yrI-60">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="BCu3Q3xe9jq5rhCb7yrI-13" value="basicimagecontrol&lt;br&gt;缓存拼版和元件数据" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="320" y="560" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="BCu3Q3xe9jq5rhCb7yrI-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BCu3Q3xe9jq5rhCb7yrI-14" target="BCu3Q3xe9jq5rhCb7yrI-15">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="BCu3Q3xe9jq5rhCb7yrI-14" value="vm层调用setcomponentproperty进行修改拼版ID" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="320" y="660" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="BCu3Q3xe9jq5rhCb7yrI-15" value="结束" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="320" y="760" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BCu3Q3xe9jq5rhCb7yrI-22" value="这里有两种方式&lt;br&gt;1. 缓存实际的框的数据&lt;br&gt;2. 缓存id" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="-80" y="500" width="260" height="280" as="geometry" />
@@ -162,6 +153,40 @@
         </mxCell>
         <mxCell id="BCu3Q3xe9jq5rhCb7yrI-53" value="移动的时候非常卡" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="-569.5" y="1036" width="203" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="BCu3Q3xe9jq5rhCb7yrI-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BCu3Q3xe9jq5rhCb7yrI-58" target="BCu3Q3xe9jq5rhCb7yrI-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BCu3Q3xe9jq5rhCb7yrI-58" value="vm层调用setcomponentproperty进行修改拼版ID" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="320" y="782" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BCu3Q3xe9jq5rhCb7yrI-59" value="结束" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="320" y="907" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BCu3Q3xe9jq5rhCb7yrI-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BCu3Q3xe9jq5rhCb7yrI-60" target="BCu3Q3xe9jq5rhCb7yrI-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BCu3Q3xe9jq5rhCb7yrI-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BCu3Q3xe9jq5rhCb7yrI-60" target="BCu3Q3xe9jq5rhCb7yrI-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BCu3Q3xe9jq5rhCb7yrI-60" value="是否绘制完成&lt;br&gt;（所有元件都有对应的拼板）" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="305.5" y="658" width="149" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="BCu3Q3xe9jq5rhCb7yrI-63" value="否" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="479" y="655" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BCu3Q3xe9jq5rhCb7yrI-65" value="否" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="384" y="728" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BCu3Q3xe9jq5rhCb7yrI-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="BCu3Q3xe9jq5rhCb7yrI-66" target="BCu3Q3xe9jq5rhCb7yrI-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="599" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BCu3Q3xe9jq5rhCb7yrI-66" value="提示存在问题的&lt;br&gt;元件" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="539" y="473" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
